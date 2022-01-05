@@ -16,7 +16,7 @@ class IPFinder():
         if ":" in ip:
             parts = ip.split(":")
             if len(parts) > 2:
-                raise ValueError("Неверный адресс '%s'" % ip)
+                raise ValueError("Неверный адрес '%s'" % ip)
             host = parts[0]
             port = int(parts[1])
         if port is None:
@@ -40,7 +40,7 @@ class IPFinder():
         if ":" in ip:
             parts = ip.split(":")
             if len(parts) > 2:
-                raise ValueError("Неверный адресс '%s'" % ip)
+                raise ValueError("Неверный адрес '%s'" % ip)
             host = parts[0]
             port = int(parts[1])
         if port is None:
