@@ -18,3 +18,4 @@ hostname = 'hypixel.net'
 resolved = IPFinder.resonlyip(hostname)
 print(resolved)
 ```
+ 
