@@ -10,7 +10,7 @@ hostname = 'hypixel.net'
 resolved = IPFinder.resolve(hostname)
 print(resolved)
 ```
-Так же можно использовать resolve но уже только получая вывод в виде айпи.
+Так же можно использовать resolve но уже только получая вывод в виде айпи без порта
 ```python
 from MCHostResolver import IPFinder
 
